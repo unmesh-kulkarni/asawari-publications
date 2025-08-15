@@ -10,9 +10,16 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
-          <div className="text-xl font-bold text-gray-800">
-            Asawari Publications
-          </div>
+          <Link
+            href="/"
+            className="absolute left-1/2 transform -translate-x-1/2 md:static md:transform-none"
+          >
+            <img
+              src="images/logo/logo.jpg"
+              alt="Asawari Publications Logo"
+              className="h-12 w-60"
+            />
+          </Link>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
@@ -70,18 +77,29 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden px-4 pb-3 space-y-2">
-          <Link href="/" className="block text-gray-700 hover:text-blue-500">
+          <Link
+            href="/"
+            className="block text-gray-700 hover:text-blue-500"
+            onClick={() => setIsOpen(false)}
+          >
             Home
           </Link>
-          <Link href="#" className="block text-gray-700 hover:text-blue-500">
+          <Link href="#" 
+          className="block text-gray-700 hover:text-blue-500"
+          onClick={() => setIsOpen(false)}
+          >
             Gallery
           </Link>
-          <Link href="#" className="block text-gray-700 hover:text-blue-500">
+          <Link href="#" 
+          className="block text-gray-700 hover:text-blue-500"
+          onClick={() => setIsOpen(false)}
+          >
             Request a book
           </Link>
           <Link
             href="/contact-us"
             className="text-gray-600 hover:text-blue-500"
+            onClick={() => setIsOpen(false)}
           >
             Contact Us
           </Link>
