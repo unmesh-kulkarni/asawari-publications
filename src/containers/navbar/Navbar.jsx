@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-sm fixed w-screen">
+    <nav className="bg-white shadow-sm fixed w-screen z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
@@ -26,7 +26,7 @@ const Navbar = () => {
             <Link href="/" className="text-gray-600 hover:text-blue-500">
               Home
             </Link>
-            <Link href="#" className="text-gray-600 hover:text-blue-500">
+            <Link href="/gallery" className="text-gray-600 hover:text-blue-500">
               Gallery
             </Link>
             <Link href="#" className="text-gray-600 hover:text-blue-500">
@@ -84,15 +84,17 @@ const Navbar = () => {
           >
             Home
           </Link>
-          <Link href="#" 
-          className="block text-gray-700 hover:text-blue-500"
-          onClick={() => setIsOpen(false)}
+          <Link
+            href="#"
+            className="block text-gray-700 hover:text-blue-500"
+            onClick={() => setIsOpen(false)}
           >
             Gallery
           </Link>
-          <Link href="#" 
-          className="block text-gray-700 hover:text-blue-500"
-          onClick={() => setIsOpen(false)}
+          <Link
+            href="#"
+            className="block text-gray-700 hover:text-blue-500"
+            onClick={() => setIsOpen(false)}
           >
             Request a book
           </Link>
