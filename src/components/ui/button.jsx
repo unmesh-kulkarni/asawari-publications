@@ -8,7 +8,8 @@ function Button({
   variant = "primary",
   className = "",
 }) {
-  const baseStyles = "px-4 py-2 rounded font-medium transition duration-200";
+  const baseStyles =
+    "px-4 py-2 rounded font-medium transition duration-200 hover:scale-105";
   const variants = {
     primary:
       "bg-white text-black border border-black hover:bg-black hover:text-white",
