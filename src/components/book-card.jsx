@@ -3,7 +3,7 @@ import { Card, CardContent, CardFooter } from "./ui";
 
 export function BookCard({ book }) {
   return (
-    <Card className="overflow-hidden h-full flex flex-col">
+    <Card className="overflow-hidden h-full flex flex-col transition-transform duration-200">
       <div className="relative aspect-[2/3] w-full">
         <Image
           src={book.coverImage || "/placeholder.svg"}

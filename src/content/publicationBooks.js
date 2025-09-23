@@ -6,7 +6,7 @@ export const publicationBooks = [
     description:
       "A comprehensive guide to crafting compelling narratives across different mediums.",
     price: 499,
-    coverImage: "/placeholder.svg?height=600&width=400",
+    coverImage: "/images/cover/1.jpg",
     publicationDate: "2022-05-15",
     isbn: "978-1234567890",
   },
@@ -17,7 +17,7 @@ export const publicationBooks = [
     description:
       "A collection of contemporary poems exploring themes of identity, nature, and urban life.",
     price: 350,
-    coverImage: "/placeholder.svg?height=600&width=400",
+    coverImage: "/images/cover/2.jpg",
     publicationDate: "2021-11-30",
     isbn: "978-0987654321",
   },
@@ -28,7 +28,7 @@ export const publicationBooks = [
     description:
       "An in-depth exploration of the rich literary traditions across different Indian languages and periods.",
     price: 799,
-    coverImage: "/placeholder.svg?height=600&width=400",
+    coverImage: "/images/cover/3.jpg",
     publicationDate: "2023-01-10",
     isbn: "978-5678901234",
   },
@@ -39,7 +39,7 @@ export const publicationBooks = [
     description:
       "Practical approaches to fostering innovation and growth in modern businesses.",
     price: 599,
-    coverImage: "/placeholder.svg?height=600&width=400",
+    coverImage: "/images/cover/4.jpg",
     publicationDate: "2022-08-22",
     isbn: "978-4321098765",
   },
@@ -50,7 +50,7 @@ export const publicationBooks = [
     description:
       "A culinary journey through the diverse flavors and techniques of Indian cuisine.",
     price: 450,
-    coverImage: "/placeholder.svg?height=600&width=400",
+    coverImage: "/images/cover/5.jpg",
     publicationDate: "2023-03-05",
     isbn: "978-6789012345",
   },
@@ -61,7 +61,51 @@ export const publicationBooks = [
     description:
       "A collection of beautifully illustrated stories that teach important life lessons to young readers.",
     price: 399,
-    coverImage: "/placeholder.svg?height=600&width=400",
+    coverImage: "/images/cover/6.jpg",
+    publicationDate: "2022-12-10",
+    isbn: "978-8901234567",
+  },
+  {
+    id: "7",
+    title: "Children's Illustrated Stories",
+    author: "Arun & Neha Singh",
+    description:
+      "A collection of beautifully illustrated stories that teach important life lessons to young readers.",
+    price: 399,
+    coverImage: "/images/cover/7.jpg",
+    publicationDate: "2022-12-10",
+    isbn: "978-8901234567",
+  },
+  {
+    id: "8",
+    title: "Children's Illustrated Stories",
+    author: "Arun & Neha Singh",
+    description:
+      "A collection of beautifully illustrated stories that teach important life lessons to young readers.",
+    price: 399,
+    coverImage: "/images/cover/8.jpg",
+    publicationDate: "2022-12-10",
+    isbn: "978-8901234567",
+  },
+  {
+    id: "9",
+    title: "Children's Illustrated Stories",
+    author: "Arun & Neha Singh",
+    description:
+      "A collection of beautifully illustrated stories that teach important life lessons to young readers.",
+    price: 399,
+    coverImage: "/images/cover/9.jpg",
+    publicationDate: "2022-12-10",
+    isbn: "978-8901234567",
+  },
+  {
+    id: "10",
+    title: "Children's Illustrated Stories",
+    author: "Arun & Neha Singh",
+    description:
+      "A collection of beautifully illustrated stories that teach important life lessons to young readers.",
+    price: 399,
+    coverImage: "/images/cover/10.jpg",
     publicationDate: "2022-12-10",
     isbn: "978-8901234567",
   },
