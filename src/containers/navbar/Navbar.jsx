@@ -98,12 +98,16 @@ const Navbar = () => {
           >
             Gallery
           </Link>
-          <Button onClick={openRequest} className="ml-2">
+          <Link
+            href="#"
+            onClick={openRequest}
+            className="block text-gray-700 hover:text-blue-500"
+          >
             Request a book
-          </Button>
+          </Link>
           <Link
             href="/contact-us"
-            className="text-gray-600 hover:text-blue-500"
+            className="text-gray-700 hover:text-blue-500"
             onClick={() => setIsOpen(false)}
           >
             Contact Us

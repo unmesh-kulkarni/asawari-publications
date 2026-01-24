@@ -50,12 +50,12 @@ export default function GalleryPage() {
               onClick={() => setSelectedIndex(idx)}
             >
               {/* Blurred background */}
-              <Image
+              {/* <Image
                 src={src}
                 alt=""
                 fill
                 className="object-cover blur-lg scale-110 opacity-40"
-              />
+              /> */}
               {/* Actual image */}
               <Image
                 src={src}

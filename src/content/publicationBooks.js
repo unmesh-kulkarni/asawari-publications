@@ -1,8 +1,8 @@
 export const publicationBooks = [
   {
     id: "1",
-    title: "The Art of Storytelling",
-    author: "Priya Sharma",
+    title: "Chambal Khoyatil Jalkranti",
+    author: "Dr. Rajendra Singh, Rita Rodriguez",
     description:
       "A comprehensive guide to crafting compelling narratives across different mediums.",
     price: 300,
@@ -12,8 +12,8 @@ export const publicationBooks = [
   },
   {
     id: "2",
-    title: "Modern Poetry Collection",
-    author: "Rahul Verma",
+    title: "Sulabh Geeta Vachanmala (Geetasar)",
+    author: "Ravindra Nathuram Shevade",
     description:
       "A collection of contemporary poems exploring themes of identity, nature, and urban life.",
     price: 100,
@@ -23,8 +23,8 @@ export const publicationBooks = [
   },
   {
     id: "3",
-    title: "The History of Indian Literature",
-    author: "Dr. Ananya Gupta",
+    title: "Ganesh Mele ani Mohare",
+    author: "Jagdish Pingle",
     description:
       "An in-depth exploration of the rich literary traditions across different Indian languages and periods.",
     price: 200,
@@ -34,8 +34,8 @@ export const publicationBooks = [
   },
   {
     id: "5",
-    title: "Cooking with Indian Spices",
-    author: "Meera Patel",
+    title: "Atulniya",
+    author: "Atul Avinash Kulkarni",
     description:
       "A culinary journey through the diverse flavors and techniques of Indian cuisine.",
     price: 180,
@@ -45,8 +45,8 @@ export const publicationBooks = [
   },
   {
     id: "6",
-    title: "Children's Illustrated Stories",
-    author: "Arun & Neha Singh",
+    title: "Morya",
+    author: "Dinesh Limbekar",
     description:
       "A collection of beautifully illustrated stories that teach important life lessons to young readers.",
     price: 250,
@@ -56,8 +56,8 @@ export const publicationBooks = [
   },
   {
     id: "7",
-    title: "Children's Illustrated Stories",
-    author: "Arun & Neha Singh",
+    title: "Gandh Phulancha Gela Sangun...",
+    author: "Prabhakar Mahajan",
     description:
       "A collection of beautifully illustrated stories that teach important life lessons to young readers.",
     price: 200,
@@ -67,8 +67,8 @@ export const publicationBooks = [
   },
   {
     id: "8",
-    title: "Children's Illustrated Stories",
-    author: "Arun & Neha Singh",
+    title: "Nata: Ganitacha Jeevanashi",
+    author: "Prabhakar Mahajan",
     description:
       "A collection of beautifully illustrated stories that teach important life lessons to young readers.",
     price: 150,
@@ -78,8 +78,8 @@ export const publicationBooks = [
   },
   {
     id: "10",
-    title: "Children's Illustrated Stories",
-    author: "Arun & Neha Singh",
+    title: "Shree Sant Sena Maharaj Charitra ani Vangmay",
+    author: "Dr. Rekha Dhere",
     description:
       "A collection of beautifully illustrated stories that teach important life lessons to young readers.",
     price: 250,
