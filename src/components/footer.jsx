@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-gray-100 border-t mt-12">
@@ -7,14 +9,17 @@ export default function Footer() {
           reserved.
         </div>
         <div className="flex gap-4 mt-2 md:mt-0">
-          <a href="/gallery" className="hover:underline">
+          <Link href="/gallery" className="hover:underline">
             Gallery
-          </a>
-          <a href="/contact" className="hover:underline">
+          </Link>
+          <Link href="/contact-us" className="hover:underline">
             Contact Us
-          </a>
-          <a href="mailto:info@asawari.com" className="hover:underline">
-            info@asawari.com
+          </Link>
+          <a
+            href="mailto:atulniy.kulkarni@gmail.com?subject=Book Request&body=Hello,%0A%0AI would like to request the following book:%0A- Book Title:%0A- Author:%0A%0AThank you!"
+            className="hover:underline"
+          >
+            atulniy.kulkarni@gmail.com
           </a>
         </div>
       </div>

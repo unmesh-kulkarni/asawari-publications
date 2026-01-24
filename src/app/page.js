@@ -1,10 +1,15 @@
+"use client";
 import { BookCard } from "@/components/book-card";
 import { Button } from "@/components/ui";
 import { publicationBooks } from "@/content/publicationBooks";
+import { useModal } from "@/components/ModalProvider";
 
 export default function Home() {
+  const { openRequest } = useModal();
+
   return (
-    <main className="container mx-auto px-4 py-8">
+    <main className="container mx-auto px-4 py-28">
+      {" "}
       <section className="mb-12">
         <div className="flex flex-col items-center text-center mb-8">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
@@ -17,10 +22,9 @@ export default function Home() {
         </div>
 
         <div className="flex justify-center mb-8">
-          <Button>Request a Book</Button>
+          <Button onClick={openRequest}>Request a Book</Button>
         </div>
       </section>
-
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-6">Our Publications</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

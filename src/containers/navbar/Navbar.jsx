@@ -1,12 +1,15 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
+import Button from "@/components/ui/button";
+import { useModal } from "@/components/ModalProvider";
 
 const Navbar = () => {
+  const { openRequest } = useModal();
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-sm fixed w-screen z-10">
+    <nav className="bg-white shadow-sm fixed w-screen z-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
@@ -29,7 +32,11 @@ const Navbar = () => {
             <Link href="/gallery" className="text-gray-600 hover:text-blue-500">
               Gallery
             </Link>
-            <Link href="#" className="text-gray-600 hover:text-blue-500">
+            <Link
+              href="#"
+              onClick={openRequest}
+              className="text-gray-600 hover:text-blue-500"
+            >
               Request a book
             </Link>
             <Link
@@ -85,19 +92,15 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            href="#"
+            href="/gallery"
             className="block text-gray-700 hover:text-blue-500"
             onClick={() => setIsOpen(false)}
           >
             Gallery
           </Link>
-          <Link
-            href="#"
-            className="block text-gray-700 hover:text-blue-500"
-            onClick={() => setIsOpen(false)}
-          >
+          <Button onClick={openRequest} className="ml-2">
             Request a book
-          </Link>
+          </Button>
           <Link
             href="/contact-us"
             className="text-gray-600 hover:text-blue-500"

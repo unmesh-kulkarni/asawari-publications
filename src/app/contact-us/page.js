@@ -1,36 +1,45 @@
-'use client';
-import InfoCard from '@/components/ui/InfoCard';
-import Button from '@/components/ui/button';
+"use client";
+import { Button } from "@/components/ui";
+import InfoCard from "@/components/ui/InfoCard";
+// import Button from "@/components/ui/button";
 
 export default function ContactUs() {
   return (
     <div className="px-4 py-10 max-w-7xl mx-auto">
       <h1 className="text-4xl font-bold text-center mb-4">Contact Us</h1>
       <p className="text-center text-gray-600 mb-10">
-        We would love to hear from you! Reach out to us using any of the methods below.
+        We would love to hear from you! Reach out to us using any of the methods
+        below.
       </p>
 
       {/* Reusable Info Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
         <InfoCard icon="📍" title="Visit Us">
-          42, Stadium Road<br />
-          Beed<br />
-          Maharashtra<br />
+          Stadium complex, opp Dindayal Bank
+          <br />
+          Beed
+          <br />
+          Maharashtra
+          <br />
         </InfoCard>
 
         <InfoCard icon="📞" title="Call Us">
-          +91 1234567890
+          +91 9422633300
           <div className="mt-3">
-            <a href="">
+            <a
+              href="https://wa.me/919422633300?text=Hello,%20I%20would%20like%20to%20request%20a%20book.%20Can%20you%20help%20me?"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button>WhatsApp Us</Button>
             </a>
           </div>
         </InfoCard>
 
         <InfoCard icon="✉️" title="Email Us">
-          info@yourbookstore.com
+          atulniy.kulkarni@gmail.com
           <div className="mt-3">
-            <a href="">
+            <a href="mailto:atulniy.kulkarni@gmail.com?subject=Book Request&body=Hello,%0A%0AI would like to request the following book:%0A- Book Title:%0A- Author:%0A%0AThank you!">
               <Button>Send Email</Button>
             </a>
           </div>
