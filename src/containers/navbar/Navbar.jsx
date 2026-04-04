@@ -19,7 +19,7 @@ const Navbar = () => {
           >
             <img
               src="images/logo/logo.jpg"
-              alt="Asawari Publications Logo"
+              alt="Asawari Prakashan Logo"
               className="h-12 w-60"
             />
           </Link>

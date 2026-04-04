@@ -15,10 +15,11 @@ export default function ContactUs() {
       {/* Reusable Info Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
         <InfoCard icon="📍" title="Visit Us">
+          <strong>Asawari Prakashan</strong>
+          <br />
           Stadium complex, opp Dindayal Bank
           <br />
-          Beed
-          <br />
+          Beed,
           Maharashtra
           <br />
         </InfoCard>

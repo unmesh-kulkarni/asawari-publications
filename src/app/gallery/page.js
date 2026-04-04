@@ -37,8 +37,8 @@ export default function GalleryPage() {
       <div className="max-w-7xl mx-auto py-8 px-4">
         <h1 className="text-4xl font-bold text-center mb-2">Our Gallery</h1>
         <p className="text-center text-gray-500 mb-8">
-          Take a peek inside our bookstore and explore moments from our events
-          and celebrations.
+          Take a look inside Asawari Prakashan bookstore and experience
+          highlights from our events and memorable occasions.
         </p>
 
         {/* Grid */}

@@ -15,8 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Asawari Publications",
-  description: "Title of the tab",
+  title: "Asawari Prakashan",
+  description:
+    "Asawari Prakashan publishes quality Marathi literature, books, and educational content.",
 };
 
 export default function RootLayout({ children }) {

@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-gray-100 border-t mt-12">
       <div className="container mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-600">
         <div>
-          &copy; {new Date().getFullYear()} Asawari Publications. All rights
+          &copy; {new Date().getFullYear()} Asawari Prakashan. All rights
           reserved.
         </div>
         <div className="flex gap-4 mt-2 md:mt-0">
